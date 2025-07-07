@@ -19,6 +19,11 @@ from PyQt5.QtCore import Qt, QTimer, pyqtSignal, QObject, QUrl
 from PyQt5.QtGui import QFont, QIcon, QColor, QBrush
 import pyqtgraph as pg
 
+# вгорі main.py
+TELEGRAM_BOT_TOKEN = "123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ"   # заміни на свій
+TELEGRAM_CHAT_ID   = "-1001234567890"                        # або свій user_id
+
+
 # Пул сессий для HTTP запросов
 session_pool = {}
 MAX_SESSIONS = 5
